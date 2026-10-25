@@ -5,13 +5,13 @@ import {loadProject, saveProject} from './storage';
 
 const example = `늦은 밤, 마지막 열차가 떠난 역에는 세 사람만 남아 있었다.
 
-    역무실의 시계는 11시 59분을 가리키고 있었다. 이상하게도 초침은 움직이지 않았다.
+역무실의 시계는 11시 59분을 가리키고 있었다. 이상하게도 초침은 움직이지 않았다.
 
-    하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"
+하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"
 
 하린은 낡은 접수증을 책상 위에 내려놓았다.
 
-    서윤: "그렇게 들었어. 근데 영업시간이 자정부터 새벽 한 시까지래."
+서윤: "그렇게 들었어. 근데 영업시간이 자정부터 새벽 한 시까지래."
 
 도윤 K. 리드: "그런 보관소가 어디 있어요?"
 
@@ -494,7 +494,7 @@ export default function App() {
                     <button type="button" className="source-help-link" onClick={() => {setHelpTab('format'); setShowHelp(true);}}>ⓘ TXT 작성 규칙 보기</button>
                   </div>
 
-                  <textarea ref={sourceRef} className="source-text" spellCheck={false} value={project.raw} placeholder={'하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"\n\n하린은 낡은 접수증을 책상 위에 내려놓았다.\n\n\n문밖에서 낯선 발소리가 들려옵니다.'} onChange={e => update({raw: e.target.value})}/>
+                  <textarea ref={sourceRef} className="source-text" spellCheck={false} value={project.raw} placeholder={'하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"\n하린은 낡은 접수증을 책상 위에 내려놓았다.\n\n\n문밖에서 낯선 발소리가 들려옵니다.'} onChange={e => update({raw: e.target.value})}/>
 
                   <div className="inline end">
                     <span className="muted">{project.raw.length.toLocaleString()}자</span>
