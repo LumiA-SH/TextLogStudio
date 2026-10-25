@@ -493,7 +493,7 @@ export default function App() {
                     <button type="button" className="source-help-link" onClick={() => {setHelpTab('format'); setShowHelp(true);}}>ⓘ TXT 작성 규칙 보기</button>
                   </div>
 
-                  <textarea ref={sourceRef} className="source-text" spellCheck={false} value={project.raw} placeholder={'하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"\n하린은 낡은 접수증을 책상 위에 내려놓았다.\n\n\n문밖에서 낯선 발소리가 들려옵니다.'} onChange={e => update({raw: e.target.value})}/>
+                  <textarea ref={sourceRef} className="source-text" spellCheck={false} value={project.raw} placeholder={'하린: "그러니까, 여기서 잃어버린 물건을 찾을 수 있다는 거죠?"하린은 낡은 접수증을 책상 위에 내려놓았다.\n\n\n문밖에서 낯선 발소리가 들려옵니다.'} onChange={e => update({raw: e.target.value})}/>
 
                   <div className="inline end">
                     <span className="muted">{project.raw.length.toLocaleString()}자</span>
