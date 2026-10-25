@@ -8,7 +8,7 @@ function getSpeaker(line) {
   if (!match) return null;
 
   const name = match[1].trim();
-  if (name.length > 24 || /[.!?。？！]/.test(name) || /^https?$/i.test(name)) return null;
+  if (name.length > 24 || /[!?。？！]/.test(name) || /^https?$/i.test(name)) return null;
 
   return {speaker: name, text: match[2] || ''};
 }
