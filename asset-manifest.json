@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TextLogStudio/static/css/main.fa1191b4.css",
+    "main.js": "/TextLogStudio/static/js/main.f8f2b7f3.js",
+    "index.html": "/TextLogStudio/index.html",
+    "main.fa1191b4.css.map": "/TextLogStudio/static/css/main.fa1191b4.css.map",
+    "main.f8f2b7f3.js.map": "/TextLogStudio/static/js/main.f8f2b7f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa1191b4.css",
+    "static/js/main.f8f2b7f3.js"
+  ]
+}
