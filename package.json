@@ -3,7 +3,7 @@
   "name": "trpg-log-studio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://lumia-sh.github.io/TextLogStudio/",
+  "homepage": "https://lumia-sh.github.io/TextL ogStudio/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.468.0",
